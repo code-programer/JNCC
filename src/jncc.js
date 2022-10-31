@@ -32,3 +32,6 @@ jncc.document = function(json, el){
 		document.getElementById(el).innerHTML = json2xml(json);
 	}
 }
+HTMLElement.prototype.JNCCStyle = function(json){
+    this.style = json;
+}
